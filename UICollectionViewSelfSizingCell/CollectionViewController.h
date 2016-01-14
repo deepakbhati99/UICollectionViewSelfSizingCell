@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CollectionViewController.h
 //  UICollectionViewSelfSizingCell
 //
 //  Created by Himanshu Khatri on 1/14/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CollectionViewController : UICollectionViewController
 
 @end
-

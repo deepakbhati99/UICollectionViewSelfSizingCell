@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		6231FB781C47753800A8A387 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231FB771C47753800A8A387 /* main.m */; };
 		6231FB7B1C47753800A8A387 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231FB7A1C47753800A8A387 /* AppDelegate.m */; };
-		6231FB7E1C47753800A8A387 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231FB7D1C47753800A8A387 /* ViewController.m */; };
 		6231FB811C47753800A8A387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6231FB7F1C47753800A8A387 /* Main.storyboard */; };
 		6231FB831C47753800A8A387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6231FB821C47753800A8A387 /* Assets.xcassets */; };
 		6231FB861C47753800A8A387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6231FB841C47753800A8A387 /* LaunchScreen.storyboard */; };
 		6231FB911C47753800A8A387 /* UICollectionViewSelfSizingCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231FB901C47753800A8A387 /* UICollectionViewSelfSizingCellTests.m */; };
 		6231FB9C1C47753800A8A387 /* UICollectionViewSelfSizingCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231FB9B1C47753800A8A387 /* UICollectionViewSelfSizingCellUITests.m */; };
+		6231FBAB1C4775C200A8A387 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231FBAA1C4775C200A8A387 /* CollectionViewController.m */; };
+		6231FBAE1C47871600A8A387 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231FBAD1C47871600A8A387 /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		6231FB771C47753800A8A387 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6231FB791C47753800A8A387 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6231FB7A1C47753800A8A387 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6231FB7C1C47753800A8A387 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6231FB7D1C47753800A8A387 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6231FB801C47753800A8A387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6231FB821C47753800A8A387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6231FB851C47753800A8A387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		6231FB971C47753800A8A387 /* UICollectionViewSelfSizingCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewSelfSizingCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6231FB9B1C47753800A8A387 /* UICollectionViewSelfSizingCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewSelfSizingCellUITests.m; sourceTree = "<group>"; };
 		6231FB9D1C47753800A8A387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6231FBA91C4775C200A8A387 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		6231FBAA1C4775C200A8A387 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		6231FBAC1C47871600A8A387 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		6231FBAD1C47871600A8A387 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +106,10 @@
 			children = (
 				6231FB791C47753800A8A387 /* AppDelegate.h */,
 				6231FB7A1C47753800A8A387 /* AppDelegate.m */,
-				6231FB7C1C47753800A8A387 /* ViewController.h */,
-				6231FB7D1C47753800A8A387 /* ViewController.m */,
+				6231FBA91C4775C200A8A387 /* CollectionViewController.h */,
+				6231FBAA1C4775C200A8A387 /* CollectionViewController.m */,
+				6231FBAC1C47871600A8A387 /* CollectionViewCell.h */,
+				6231FBAD1C47871600A8A387 /* CollectionViewCell.m */,
 				6231FB7F1C47753800A8A387 /* Main.storyboard */,
 				6231FB821C47753800A8A387 /* Assets.xcassets */,
 				6231FB841C47753800A8A387 /* LaunchScreen.storyboard */,
@@ -270,8 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6231FB7E1C47753800A8A387 /* ViewController.m in Sources */,
+				6231FBAB1C4775C200A8A387 /* CollectionViewController.m in Sources */,
 				6231FB7B1C47753800A8A387 /* AppDelegate.m in Sources */,
+				6231FBAE1C47871600A8A387 /* CollectionViewCell.m in Sources */,
 				6231FB781C47753800A8A387 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
